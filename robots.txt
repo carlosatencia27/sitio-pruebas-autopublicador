@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://carlosatencia27.github.io/sitio-pruebas-autopublicador/sitemap.xml
