@@ -1,6 +1,6 @@
 // Service worker simple: siempre intenta la red (así ves lo más nuevo) y, si no hay conexión,
 // usa la copia guardada de las páginas que ya visitaste. No hace pedidos a otros sitios.
-const CACHE = 'sitio-20261104055738';   // la versión cambia en cada publicación
+const CACHE = 'sitio-20261104055937';   // la versión cambia en cada publicación
 
 self.addEventListener('install', function () { self.skipWaiting(); });
 
