@@ -3,23 +3,60 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sitio de pruebas</title>
-<meta name="description" content="Sitio de pruebas: artículos y páginas.">
+<title>PixelGuía</title>
+<meta name="description" content="PixelGuía: guías claras y honestas de videojuegos.">
+<meta name="theme-color" content="#1b4dff">
+
+<link rel="alternate" type="application/rss+xml" title="PixelGuía" href="feed.xml">
 <link rel="stylesheet" href="style.css">
+
 </head>
 <body class="type-index">
-<header class="site"><a href="">Sitio de pruebas</a></header>
-<main>
-<h1>Sitio de pruebas</h1>
-<ul class="posts">
+<header class="site"><div class="wrap">
+<a class="brand" href=""><span class="logo" aria-hidden="true">🎮</span>PixelGuía</a>
+<nav class="top" aria-label="Juegos"><a class="nav-roblox" href="#roblox">🧱 Roblox</a><a class="nav-free-fire" href="#free-fire">🔥 Free Fire</a><a class="nav-otros" href="#otros">✨ Otros temas</a></nav>
+</div></header>
+<main class="wrap">
 
-<li><a href="el-sistema-solar/">El Sistema Solar</a><span>El sistema solar es un sistema planetario que comprende ocho planetas y otros objetos astronómicos que giran alrededor del Sol</span></li>
+<section class="hero-home">
+<h1>🎮 PixelGuía</h1>
+<p>Guías claras y honestas de tus juegos favoritos. Sin trucos falsos y sin estafas.</p>
+<input id="q" type="search" placeholder="🔍 Buscar una guía…" aria-label="Buscar una guía" autocomplete="off">
+</section>
 
-<li><a href="la-revolucion-industrial/">La Revolución Industrial</a><span>La Revolución Industrial fue un proceso de transformación económica, social y tecnológica que se inició en el siglo XVIII</span></li>
+<section class="group cat-roblox" id="roblox">
+<h2 class="group-title">🧱 Roblox</h2>
+<div class="cards">
+<a class="card cat-roblox" href="robux-gratis-roblox/" data-title="robux gratis en roblox: ¿cómo conseguirlos de verdad?"><img src="assets/covers/robux-gratis-roblox.svg" alt="" loading="lazy" width="800" height="420"><span class="card-body"><span class="chip small">🧱 Roblox</span><strong>Robux gratis en Roblox: ¿cómo conseguirlos de verdad?</strong><small>Conoce los métodos legítimos para obtener Robux en Roblox y evita las estafas comunes</small></span></a>
+</div>
+</section>
 
-<li><a href="historia-de-colombia/">Historia de Colombia</a><span>La historia de Colombia abarca desde la época precolombina hasta la actualidad, con una rica diversidad cultural y política</span></li>
+<section class="group cat-otros" id="otros">
+<h2 class="group-title">✨ Otros temas</h2>
+<div class="cards">
+<a class="card cat-otros" href="el-sistema-solar/" data-title="el sistema solar"><img src="assets/covers/el-sistema-solar.svg" alt="" loading="lazy" width="800" height="420"><span class="card-body"><span class="chip small">✨ Otros temas</span><strong>El Sistema Solar</strong><small>El sistema solar es un sistema planetario que comprende ocho planetas y otros objetos astronómicos que giran alrededor del Sol</small></span></a>
 
-</ul>
+<a class="card cat-otros" href="la-revolucion-industrial/" data-title="la revolución industrial"><img src="assets/covers/la-revolucion-industrial.svg" alt="" loading="lazy" width="800" height="420"><span class="card-body"><span class="chip small">✨ Otros temas</span><strong>La Revolución Industrial</strong><small>La Revolución Industrial fue un proceso de transformación económica, social y tecnológica que se inició en el siglo XVIII</small></span></a>
+
+<a class="card cat-otros" href="historia-de-colombia/" data-title="historia de colombia"><img src="assets/covers/historia-de-colombia.svg" alt="" loading="lazy" width="800" height="420"><span class="card-body"><span class="chip small">✨ Otros temas</span><strong>Historia de Colombia</strong><small>La historia de Colombia abarca desde la época precolombina hasta la actualidad, con una rica diversidad cultural y política</small></span></a>
+
+<a class="card cat-otros" href="como-hacer-una-hoja-de-vida-sin-experiencia-laboral/" data-title="cómo hacer una hoja de vida sin experiencia laboral"><img src="assets/covers/como-hacer-una-hoja-de-vida-sin-experiencia-laboral.svg" alt="" loading="lazy" width="800" height="420"><span class="card-body"><span class="chip small">✨ Otros temas</span><strong>Cómo hacer una hoja de vida sin experiencia laboral</strong><small>Aprende a crear una hoja de vida sin experiencia, destacar tus habilidades y presentar tu perfil para aumentar tus oportunidades laborales.</small></span></a>
+
+<a class="card cat-otros" href="5-herramientas-de-ia-gratis-para-estudiar-y-trabajar-en-2026/" data-title="5 herramientas de ia gratis que realmente puedes usar para estudiar y trabajar en 2026"><img src="assets/covers/5-herramientas-de-ia-gratis-para-estudiar-y-trabajar-en-2026.svg" alt="" loading="lazy" width="800" height="420"><span class="card-body"><span class="chip small">✨ Otros temas</span><strong>5 herramientas de IA gratis que realmente puedes usar para estudiar y trabajar en 2026</strong><small>Descubre 5 herramientas de IA gratis para estudiar, trabajar, investigar, escribir y crear contenido sin pagar una suscripción.</small></span></a>
+</div>
+</section>
+
+<p id="no-results" hidden>No encontramos guías con ese nombre. Prueba con otra palabra 🙂</p>
+
 </main>
+<footer class="site"><div class="wrap">
+<div class="foot-cols">
+<div><strong>PixelGuía</strong><p>Guías claras y honestas de videojuegos para niños y adolescentes.</p></div>
+<div><strong>Juegos</strong><a href="#roblox">🧱 Roblox</a><a href="#free-fire">🔥 Free Fire</a><a href="#otros">✨ Otros temas</a></div>
+<div><strong>Información</strong><a href="info/sobre-nosotros/">Sobre nosotros</a><a href="info/contacto/">Contacto</a><a href="info/privacidad/">Privacidad</a><a href="info/cookies/">Cookies</a><a href="info/aviso-legal/">Aviso legal</a><a href="info/terminos/">Términos</a></div>
+</div>
+<p class="fine">© 2026 PixelGuía. Sitio independiente: no está afiliado a Roblox ni a Garena (Free Fire). Los nombres pertenecen a sus dueños.</p>
+</div></footer>
+<script src="site.js" defer></script>
 </body>
 </html>
